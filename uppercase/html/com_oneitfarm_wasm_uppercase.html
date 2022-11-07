@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="../css/tailwind.min.css" rel="stylesheet">
+	<title>com.oneitfarm.wasm.uppercase</title>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" type="text/javascript" defer></script>
+    <script src='https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js' type="text/javascript"></script>
+</head>
+<body class="p-4">
+
+    <div id="content">
+        <div class="p-4 overflow-y-auto">
+            <h1 id="com_oneitfarm_wasm_uppercase" class="text-2xl font-serif">Namespace com.oneitfarm.wasm.uppercase</h1>
+            <div class="table m-4 ml-12">
+            <div class="table-row">
+                <div class="table-cell align-top pr-6 w-28">
+                    Services
+                </div>
+                <div class="table-cell align-top">
+                    <ul>
+<li class="font-light"><a href="#com_oneitfarm_wasm_uppercase_uppercase"><a href="#uppercase">Uppercase</a></a></li>                    </ul>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell align-top pr-6 w-28">
+                    Operations
+                </div>
+                <div class="table-cell align-top">
+                    <ul>
+<li class="font-light"><a href="#com_oneitfarm_wasm_uppercase_upper"><a href="#upper">Upper</a></a></li>                    </ul>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell align-top pr-6 w-28">
+                    Structures
+                </div>
+                <div class="table-cell align-top">
+                    <ul>
+<li class="font-light"><a href="#com_oneitfarm_wasm_uppercase_uppercase_request"><a href="#uppercase_request">UppercaseRequest</a></a></li><li class="font-light"><a href="#com_oneitfarm_wasm_uppercase_uppercase_response"><a href="#uppercase_response">UppercaseResponse</a></a></li>                    </ul>
+                </div>
+            </div>            </div>
+
+
+
+    <h2 id="upper" class="mt-8 border-t-2 border-gray-300">
+        <a href="#upper">Upper</a><span class="text-lg pl-4">(operation)</span>
+    </h2><p class="font-light ml-6">Uppercase - Execute transaction</p>
+                        <div class="ml-12">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th class="w-48"></th>
+                                    <th class="w-48"></th>
+                                    <th class=""></th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>input:</td>
+                                        <td><a href="#uppercase_request">UppercaseRequest</a></td>
+                                        <td><span class="font-light"></span></td>
+                                    </tr>                                    <tr>
+                                        <td>output:</td>
+                                        <td><a href="#uppercase_response">UppercaseResponse</a></td>
+                                        <td><span class="font-light"></span></td>
+                                    </tr>                                </tbody>
+                            </table>
+                        </div>
+                        
+
+
+
+
+
+    <h2 id="uppercase" class="mt-8 border-t-2 border-gray-300">
+        <a href="#uppercase">Uppercase</a><span class="text-lg pl-4">(service)</span>
+    </h2><p class="font-light ml-6">Description of Uppercase service</p>
+                        <div class="ml-12">                                <div class="table my-4">
+                                    <div class="table-row">
+                                        <div class="table-cell align-top pr-6 w-48">
+                                            <span class="font-medium my-4">
+                                                Operations
+                                            </span>
+                                        </div>
+                                        <div class="table-cell align-top">
+                                            <ul>                                                    <li class="font-light">
+                                                        <a href="#com_oneitfarm_wasm_uppercase_upper">
+                                                            <a href="#upper">Upper</a>
+                                                        </a>
+                                                    </li>                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                        </div>
+        <div class="ml-12">
+            <p class="font-medium mt-4">Traits
+            <p>
+            <table>                    <tr>
+                            <td><a href="./org_wasmcloud_model.html#wasmbus">org.wasmcloud.model#wasmbus</a></td>
+                            <td>[object]</td>
+                    </tr>            </table>
+        </div>
+
+
+
+    <h2 id="uppercase_request" class="mt-8 border-t-2 border-gray-300">
+        <a href="#uppercase_request">UppercaseRequest</a><span class="text-lg pl-4">(structure)</span>
+    </h2><p class="font-light ml-6">Parameters sent for Uppercase</p>
+                        <div class="ml-12">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th class="w-48"></th>
+                                    <th class="w-48"></th>
+                                    <th class=""></th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>data:</td>
+                                        <td>String</td>
+                                        <td><span class="font-light">method to be Uppercased</span></td>
+                                    </tr>                                </tbody>
+                            </table>
+                        </div>
+
+
+
+
+    <h2 id="uppercase_response" class="mt-8 border-t-2 border-gray-300">
+        <a href="#uppercase_response">UppercaseResponse</a><span class="text-lg pl-4">(structure)</span>
+    </h2><p class="font-light ml-6">Response to Uppercase</p>
+                        <div class="ml-12">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th class="w-48"></th>
+                                    <th class="w-48"></th>
+                                    <th class=""></th>
+                                </tr>
+                                </thead>
+                                <tbody>                                    <tr>
+                                        <td>data:</td>
+                                        <td>String</td>
+                                        <td><span class="font-light">response data</span></td>
+                                    </tr>                                    <tr>
+                                        <td>success:</td>
+                                        <td>Boolean</td>
+                                        <td><span class="font-light">Indicates a successful authorization</span></td>
+                                    </tr>                                </tbody>
+                            </table>
+                        </div>
+
+        </div>
+    </div></body>
+</html>

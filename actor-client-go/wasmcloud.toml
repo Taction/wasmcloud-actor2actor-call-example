@@ -1,0 +1,7 @@
+name = "actor-client-go"
+language = "tinygo"
+type = "actor"
+version = "0.1.0"
+
+[actor]
+claims = ["wasmcloud:httpserver"]
